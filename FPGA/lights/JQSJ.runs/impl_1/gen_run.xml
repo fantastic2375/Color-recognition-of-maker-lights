@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7s15ftgb196-1" LaunchTime="1596078399">
+  <File Type="BITSTR-BMM" Name="Driver_IIC_2_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Driver_IIC_2_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Driver_IIC_2_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Driver_IIC_2_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Driver_IIC_2.tcl"/>
+  <File Type="OPT-TIMING" Name="Driver_IIC_2_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Driver_IIC_2_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Driver_IIC_2_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Driver_IIC_2_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Driver_IIC_2_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Driver_IIC_2.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Driver_IIC_2_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Driver_IIC_2_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Driver_IIC_2_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Driver_IIC_2_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Driver_IIC_2_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Driver_IIC_2_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Driver_IIC_2_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Driver_IIC_2_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Driver_IIC_2_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Driver_IIC_2_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Driver_IIC_2_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Driver_IIC_2.bgn"/>
+  <File Type="PLACE-TIMING" Name="Driver_IIC_2_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Driver_IIC_2_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Driver_IIC_2.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Driver_IIC_2_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Driver_IIC_2_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Driver_IIC_2_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Driver_IIC_2.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Driver_IIC_2_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Driver_IIC_2_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Driver_IIC_2_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Driver_IIC_2_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Driver_IIC_2_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Driver_IIC_2_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Driver_IIC_2.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Driver_IIC_2_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Driver_IIC_2.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Driver_IIC_2_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Driver_IIC_2_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="Driver_IIC_2.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Driver_IIC_2_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Driver_IIC_2_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Driver_IIC_2_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Driver_IIC_2_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Driver_IIC_2_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Driver_IIC_2_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Driver_IIC_2_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Driver_IIC_2_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Driver_IIC_2_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Driver_IIC_2_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Driver_IIC_2_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Driver_IIC_2_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Driver_IIC_2_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Driver_IIC_2_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Driver_IIC_2_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Driver_IIC_2_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Driver_IIC_2_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Driver_IIC_2_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Driver_IIC_2_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Driver_IIC_2.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Driver_IIC_2_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Driver_IIC_2.rbt"/>
+  <File Type="BITSTR-NKY" Name="Driver_IIC_2.nky"/>
+  <File Type="BG-DRC" Name="Driver_IIC_2.drc"/>
+  <File Type="RDI-RDI" Name="Driver_IIC_2.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/Driver_IIC_2/Driver_IIC_2.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/rgb2stream_1/rgb2stream_1.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/rgb2dvi_1/rgb2dvi_1.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/csi2_d_phy_rx_0/csi2_d_phy_rx_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/OV5647_Init_3/OV5647_Init_3.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/OV5647_Init_2/OV5647_Init_2.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/OV5647_Init_1/OV5647_Init_1.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/Driver_MIPI_0/Driver_MIPI_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/Driver_IIC_1/Driver_IIC_1.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/rgb2dvi_0/rgb2dvi_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/clk_wiz_0/clk_wiz_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/OV5647_Init_0/OV5647_Init_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_IIC_0/Driver_IIC_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/OV5647_Init_0/OV5647_Init_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/Driver_IIC_0/Driver_IIC_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../YSSB/new/BW.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../YSSB/new/RGB_To_HSV.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../YSSB/new/center.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../YSSB/new/render.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../YSSB/new/weight_cal.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../YSSB/new/colorDetect.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/Driver_IIC_3/Driver_IIC_3.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/OV5647_Init_4/OV5647_Init_4.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Driver_IIC_2"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

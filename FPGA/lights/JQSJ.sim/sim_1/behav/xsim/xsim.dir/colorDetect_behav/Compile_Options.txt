@@ -1,0 +1,1 @@
+-wto "dd2b23e053bb4f778bae020dc632021f" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "blk_mem_gen_v8_4_2" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "colorDetect_behav" "xil_defaultlib.colorDetect" "xil_defaultlib.glbl" -log "elaborate.log" 

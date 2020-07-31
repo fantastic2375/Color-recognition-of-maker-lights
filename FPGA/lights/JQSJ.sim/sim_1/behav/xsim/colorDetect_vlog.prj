@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/clk_wiz_0" --include "../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/clk_wiz_2" --include "../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_MIPI_0_4/src/clk_wiz_1" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/OV5647_Init_0/sim/OV5647_Init.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/OV5647_Init_0/sim/OV5647_Init_0.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_IIC_0/sim/Driver_IIC.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_IIC_0/sim/Driver_IIC_0.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_MIPI_0_4/src/AXIS_Data_RAM/sim/AXIS_Data_RAM.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_MIPI_0_4/src/RAM_Line/sim/RAM_Line.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_MIPI_0_4/src/clk_wiz_1/clk_wiz_1_clk_wiz.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_MIPI_0_4/src/clk_wiz_1/clk_wiz_1.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_MIPI_0_4/src/Driver_Bayer_To_RGB.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_MIPI_0_4/src/Driver_Csi_To_Dvp.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_MIPI_0_4/src/Driver_MIPI.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_MIPI_0_4/sim/Driver_MIPI_0.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/clk_wiz_2/clk_wiz_2_clk_wiz.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/clk_wiz_2/clk_wiz_2.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/clk_wiz_0/clk_wiz_0.v" \
+"../../../../../YSSB/new/BW.v" \
+"../../../../../YSSB/new/RGB_To_HSV.v" \
+"../../../../../YSSB/new/center.v" \
+"../../../../../YSSB/new/render.v" \
+"../../../../../YSSB/new/weight_cal.v" \
+"../../../../../YSSB/new/colorDetect.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

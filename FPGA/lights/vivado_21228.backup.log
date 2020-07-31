@@ -1,0 +1,250 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jul 30 10:15:45 2020
+# Process ID: 21228
+# Current directory: E:/Vivado/JQSJ_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2936 E:\Vivado\JQSJ_1\JQSJ.xpr
+# Log file: E:/Vivado/JQSJ_1/vivado.log
+# Journal file: E:/Vivado/JQSJ_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Vivado/JQSJ_1/JQSJ.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/Vivado/SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/rgb2dvi_0/rgb2dvi_0.xci'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/Vivado/SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/clk_wiz_0/clk_wiz_0.xci'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/Vivado/SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/OV5647_Init_0/OV5647_Init_0.xci'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/Vivado/SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_IIC_0/Driver_IIC_0.xci'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/Vivado/YSSB/new/BW.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/Vivado/YSSB/new/RGB_To_HSV.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/Vivado/YSSB/new/center.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/Vivado/YSSB/new/render.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/Vivado/YSSB/new/weight_cal.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/Vivado/YSSB/new/colorDetect.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/Vivado/SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/clk_wiz_2/clk_wiz_2.xci'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/Vivado/SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_MIPI_0_4/Driver_MIPI_0.xci'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Vivado/SEA-master/Examples/FPGA-IP/IIC-IP/IP'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Vivado/SEA-master/Examples/FPGA-IP/Camera-IP/IP/OV5647_Init_IP'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Vivado/RGB2DVI_IP'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Vivado/SEA-master/Examples/FPGA-IP/IIC-IP/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Vivado/SEA-master/Examples/FPGA-IP/Camera-IP/IP/OV5647_Init_IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/Vivado/Camera_Demo/IP_Core/CSI2AXIS_1.0_IP'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/Vivado/Camera_Demo/IP_Core/CSI2DPHY_RX_1.0_IP'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/Vivado/Camera_Demo/Camera_Demo.srcs/sources_1/ip/clk_wiz_1'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Vivado/FPGA_IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Vivado/Camera_Demo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Vivado/JQSJ_1'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2018.3/data/ip'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'digilentinc.com:ip:rgb2dvi:1.2'. The one found in IP location 'e:/Vivado/RGB2DVI_IP' will take precedence over the same IP in locations: 
+   e:/Vivado/FPGA_IP/Mini-HDMI-IP/IP/RGB2DVI_IP
+   e:/Vivado/Camera_Demo/IP_Core/RGB2DVI_IP
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'trenz.biz:user:csi_to_axis:1.0'. The one found in IP location 'e:/Vivado/FPGA_IP/Camera-IP/IP/CSI2AXIS_1.0_IP' will take precedence over the same IP in location e:/Vivado/Camera_Demo/IP_Core/CSI2AXIS_1.0_IP
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'trenz.biz:user:csi2_d_phy_rx:1.0'. The one found in IP location 'e:/Vivado/FPGA_IP/Camera-IP/IP/CSI2DPHY_RX_1.0_IP' will take precedence over the same IP in location e:/Vivado/Camera_Demo/IP_Core/CSI2DPHY_RX_1.0_IP
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'rgb2dvi_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'clk_wiz_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'OV5647_Init_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'Driver_IIC_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'clk_wiz_2'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'Driver_MIPI_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+WARNING: [IP_Flow 19-2162] IP 'Clk_Division_0' is locked:
+* IP definition 'Clk_Division (1.0)' for IP 'Clk_Division_0' (customized with software release 2018.3) was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 731.598 ; gain = 139.113
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+set_property  ip_repo_paths  {e:/Vivado/RGB2DVI_IP e:/Vivado/SEA-master/Examples/FPGA-IP/IIC-IP/IP e:/Vivado/SEA-master/Examples/FPGA-IP/Camera-IP/IP/OV5647_Init_IP e:/Vivado/Camera_Demo/IP_Core/CSI2AXIS_1.0_IP e:/Vivado/Camera_Demo/IP_Core/CSI2DPHY_RX_1.0_IP e:/Vivado/Camera_Demo/Camera_Demo.srcs/sources_1/ip/clk_wiz_1 e:/Vivado/FPGA_IP e:/Vivado/Camera_Demo e:/Vivado/JQSJ_1 E:/Vivado/IP_Core} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Vivado/RGB2DVI_IP'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Vivado/SEA-master/Examples/FPGA-IP/IIC-IP/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Vivado/SEA-master/Examples/FPGA-IP/Camera-IP/IP/OV5647_Init_IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/Vivado/Camera_Demo/IP_Core/CSI2AXIS_1.0_IP'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/Vivado/Camera_Demo/IP_Core/CSI2DPHY_RX_1.0_IP'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/Vivado/Camera_Demo/Camera_Demo.srcs/sources_1/ip/clk_wiz_1'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Vivado/FPGA_IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Vivado/Camera_Demo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Vivado/JQSJ_1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Vivado/IP_Core'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'digilentinc.com:ip:rgb2dvi:1.2'. The one found in IP location 'e:/Vivado/RGB2DVI_IP' will take precedence over the same IP in locations: 
+   e:/Vivado/FPGA_IP/Mini-HDMI-IP/IP/RGB2DVI_IP
+   e:/Vivado/Camera_Demo/IP_Core/RGB2DVI_IP
+   e:/Vivado/IP_Core/RGB2DVI_IP
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'trenz.biz:user:csi_to_axis:1.0'. The one found in IP location 'e:/Vivado/FPGA_IP/Camera-IP/IP/CSI2AXIS_1.0_IP' will take precedence over the same IP in locations: 
+   e:/Vivado/Camera_Demo/IP_Core/CSI2AXIS_1.0_IP
+   e:/Vivado/IP_Core/CSI2AXIS_1.0_IP
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'trenz.biz:user:csi2_d_phy_rx:1.0'. The one found in IP location 'e:/Vivado/FPGA_IP/Camera-IP/IP/CSI2DPHY_RX_1.0_IP' will take precedence over the same IP in locations: 
+   e:/Vivado/Camera_Demo/IP_Core/CSI2DPHY_RX_1.0_IP
+   e:/Vivado/IP_Core/CSI2DPHY_RX_1.0_IP
+create_ip -name Driver_IIC -vendor xilinx.com -library user -version 1.0 -module_name Driver_IIC_1 -dir e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip
+generate_target {instantiation_template} [get_files e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_1/Driver_IIC_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Driver_IIC_1'...
+generate_target all [get_files  e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_1/Driver_IIC_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Driver_IIC_1'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Driver_IIC_1'...
+catch { config_ip_cache -export [get_ips -all Driver_IIC_1] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Driver_IIC_1, cache-ID = e12d895f2890b9d7; cache size = 5.823 MB.
+export_ip_user_files -of_objects [get_files e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_1/Driver_IIC_1.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_1/Driver_IIC_1.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_1/Driver_IIC_1.xci'
+export_simulation -of_objects [get_files e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_1/Driver_IIC_1.xci] -directory E:/Vivado/JQSJ_1/JQSJ.ip_user_files/sim_scripts -ip_user_files_dir E:/Vivado/JQSJ_1/JQSJ.ip_user_files -ipstatic_source_dir E:/Vivado/JQSJ_1/JQSJ.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/modelsim} {questa=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/questa} {riviera=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/riviera} {activehdl=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name Driver_IIC -vendor xilinx.com -library user -version 1.0 -module_name Driver_IIC_2 -dir e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip
+generate_target {instantiation_template} [get_files e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_2/Driver_IIC_2.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Driver_IIC_2'...
+update_compile_order -fileset sources_1
+set_property generate_synth_checkpoint false [get_files  e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_2/Driver_IIC_2.xci]
+update_compile_order -fileset sources_1
+create_ip -name Driver_IIC -vendor xilinx.com -library user -version 1.0 -module_name Driver_IIC_3 -dir e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip
+generate_target {instantiation_template} [get_files e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_3/Driver_IIC_3.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Driver_IIC_3'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_3/Driver_IIC_3.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Driver_IIC_3'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Driver_IIC_3'...
+catch { config_ip_cache -export [get_ips -all Driver_IIC_3] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Driver_IIC_3, cache-ID = e12d895f2890b9d7; cache size = 5.823 MB.
+export_ip_user_files -of_objects [get_files e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_3/Driver_IIC_3.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_3/Driver_IIC_3.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_3/Driver_IIC_3.xci'
+export_simulation -of_objects [get_files e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_3/Driver_IIC_3.xci] -directory E:/Vivado/JQSJ_1/JQSJ.ip_user_files/sim_scripts -ip_user_files_dir E:/Vivado/JQSJ_1/JQSJ.ip_user_files -ipstatic_source_dir E:/Vivado/JQSJ_1/JQSJ.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/modelsim} {questa=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/questa} {riviera=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/riviera} {activehdl=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name OV5647_Init -vendor xilinx.com -library user -version 1.0 -module_name OV5647_Init_4 -dir e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip
+generate_target {instantiation_template} [get_files e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/OV5647_Init_4/OV5647_Init_4.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'OV5647_Init_4'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/OV5647_Init_4/OV5647_Init_4.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'OV5647_Init_4'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'OV5647_Init_4'...
+catch { config_ip_cache -export [get_ips -all OV5647_Init_4] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP OV5647_Init_4, cache-ID = 542b48291e78907f; cache size = 5.823 MB.
+export_ip_user_files -of_objects [get_files e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/OV5647_Init_4/OV5647_Init_4.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/OV5647_Init_4/OV5647_Init_4.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/OV5647_Init_4/OV5647_Init_4.xci'
+export_simulation -of_objects [get_files e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/OV5647_Init_4/OV5647_Init_4.xci] -directory E:/Vivado/JQSJ_1/JQSJ.ip_user_files/sim_scripts -ip_user_files_dir E:/Vivado/JQSJ_1/JQSJ.ip_user_files -ipstatic_source_dir E:/Vivado/JQSJ_1/JQSJ.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/modelsim} {questa=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/questa} {riviera=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/riviera} {activehdl=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Driver_IIC_2'...
+[Thu Jul 30 11:06:03 2020] Launched synth_1...
+Run output will be captured here: E:/Vivado/JQSJ_1/JQSJ.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jul 30 11:06:39 2020] Launched impl_1...
+Run output will be captured here: E:/Vivado/JQSJ_1/JQSJ.runs/impl_1/runme.log
+generate_target Simulation [get_files e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_2/Driver_IIC_2.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Driver_IIC_2'...
+export_ip_user_files -of_objects [get_files e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_2/Driver_IIC_2.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files e:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_2/Driver_IIC_2.xci] -directory E:/Vivado/JQSJ_1/JQSJ.ip_user_files/sim_scripts -ip_user_files_dir E:/Vivado/JQSJ_1/JQSJ.ip_user_files -ipstatic_source_dir E:/Vivado/JQSJ_1/JQSJ.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/modelsim} {questa=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/questa} {riviera=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/riviera} {activehdl=E:/Vivado/JQSJ_1/JQSJ.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado/JQSJ_1/JQSJ.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'E:/Vivado/JQSJ_1/JQSJ.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Driver_IIC_2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado/JQSJ_1/JQSJ.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L xilinx_vip -prj Driver_IIC_2_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_2/sim/Driver_IIC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Driver_IIC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/JQSJ_1/JQSJ.srcs/sources_1/ip/Driver_IIC_2/sim/Driver_IIC_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Driver_IIC_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/JQSJ_1/JQSJ.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Vivado/JQSJ_1/JQSJ.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto dd2b23e053bb4f778bae020dc632021f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Driver_IIC_2_behav xil_defaultlib.Driver_IIC_2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Driver_IIC(SCL_SUM='b01111101000...
+Compiling module xil_defaultlib.Driver_IIC_2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Driver_IIC_2_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source E:/Vivado/JQSJ_1/JQSJ.sim/sim_1/behav/xsim/xsim.dir/Driver_IIC_2_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Jul 30 11:07:17 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1441.078 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Vivado/JQSJ_1/JQSJ.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Driver_IIC_2_behav -key {Behavioral:sim_1:Functional:Driver_IIC_2} -tclbatch {Driver_IIC_2.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source Driver_IIC_2.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Driver_IIC_2_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:25 . Memory (MB): peak = 1824.059 ; gain = 382.980
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1824.059 ; gain = 0.000
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado/JQSJ_1/JQSJ.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'E:/Vivado/JQSJ_1/JQSJ.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Driver_IIC_2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado/JQSJ_1/JQSJ.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L xilinx_vip -prj Driver_IIC_2_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado/JQSJ_1/JQSJ.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Vivado/JQSJ_1/JQSJ.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto dd2b23e053bb4f778bae020dc632021f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Driver_IIC_2_behav xil_defaultlib.Driver_IIC_2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1824.059 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 30 20:53:50 2020...

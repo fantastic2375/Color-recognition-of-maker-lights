@@ -1,0 +1,22 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../JQSJ.ip_user_files/ipstatic/src/ClockGen.vhd" \
+"../../../../JQSJ.ip_user_files/ipstatic/src/SyncAsync.vhd" \
+"../../../../JQSJ.ip_user_files/ipstatic/src/SyncAsyncReset.vhd" \
+"../../../../JQSJ.ip_user_files/ipstatic/src/DVI_Constants.vhd" \
+"../../../../JQSJ.ip_user_files/ipstatic/src/OutputSERDES.vhd" \
+"../../../../JQSJ.ip_user_files/ipstatic/src/TMDS_Encoder.vhd" \
+"../../../../JQSJ.ip_user_files/ipstatic/src/rgb2dvi.vhd" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/rgb2dvi_0/sim/rgb2dvi_0.vhd" \
+"../../../../JQSJ.ip_user_files/ipstatic/hdl/csi2_parser.vhd" \
+"../../../../JQSJ.ip_user_files/ipstatic/hdl/lane_align.vhd" \
+"../../../../JQSJ.ip_user_files/ipstatic/hdl/lane_merge.vhd" \
+"../../../../JQSJ.ip_user_files/ipstatic/hdl/csi_to_axis_v1_0.vhd" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_MIPI_0_4/src/csi_to_axis_0/sim/csi_to_axis_0.vhd" \
+"../../../../JQSJ.ip_user_files/ipstatic/hdl/phy_clock_system.vhd" \
+"../../../../JQSJ.ip_user_files/ipstatic/hdl/line_if.vhd" \
+"../../../../JQSJ.ip_user_files/ipstatic/hdl/csi2_d_phy_rx.vhd" \
+"../../../../../SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_MIPI_0_4/src/csi2_d_phy_rx_0/sim/csi2_d_phy_rx_0.vhd" \
+
+# Do not sort compile order
+nosort

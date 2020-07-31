@@ -1,0 +1,12 @@
+
+{ 
+    crc :  3062546097563271689  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto dd2b23e053bb4f778bae020dc632021f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_2 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot colorDetect_behav xil_defaultlib.colorDetect xil_defaultlib.glbl" , 
+    buildDate : "Dec  7 2018" , 
+    buildTime : "00:33:28" , 
+    linkCmd : "D:\\Xilinx\\Vivado\\2018.3\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/colorDetect_behav/xsimk.exe\"   \"xsim.dir/colorDetect_behav/obj/xsim_0.win64.obj\" \"xsim.dir/colorDetect_behav/obj/xsim_1.win64.obj\" \"xsim.dir/colorDetect_behav/obj/xsim_2.win64.obj\" \"xsim.dir/colorDetect_behav/obj/xsim_3.win64.obj\" -L\"D:\\Xilinx\\Vivado\\2018.3\\lib\\win64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

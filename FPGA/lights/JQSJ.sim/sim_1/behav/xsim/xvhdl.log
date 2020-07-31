@@ -1,0 +1,31 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/JQSJ_1/JQSJ.ip_user_files/ipstatic/src/ClockGen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ClockGen'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/JQSJ_1/JQSJ.ip_user_files/ipstatic/src/SyncAsync.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SyncAsync'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/JQSJ_1/JQSJ.ip_user_files/ipstatic/src/SyncAsyncReset.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ResetBridge'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/JQSJ_1/JQSJ.ip_user_files/ipstatic/src/DVI_Constants.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/JQSJ_1/JQSJ.ip_user_files/ipstatic/src/OutputSERDES.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'OutputSERDES'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/JQSJ_1/JQSJ.ip_user_files/ipstatic/src/TMDS_Encoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TMDS_Encoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/JQSJ_1/JQSJ.ip_user_files/ipstatic/src/rgb2dvi.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rgb2dvi'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/JQSJ_1/JQSJ.ip_user_files/ipstatic/hdl/csi2_parser.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'csi2_parser'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/JQSJ_1/JQSJ.ip_user_files/ipstatic/hdl/lane_align.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'lane_align'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/JQSJ_1/JQSJ.ip_user_files/ipstatic/hdl/lane_merge.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'lane_merge'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/JQSJ_1/JQSJ.ip_user_files/ipstatic/hdl/csi_to_axis_v1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'csi_to_axis_v1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_MIPI_0_4/src/csi_to_axis_0/sim/csi_to_axis_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'csi_to_axis_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/JQSJ_1/JQSJ.ip_user_files/ipstatic/hdl/phy_clock_system.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'phy_clock_system'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/JQSJ_1/JQSJ.ip_user_files/ipstatic/hdl/line_if.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'line_if'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/JQSJ_1/JQSJ.ip_user_files/ipstatic/hdl/csi2_d_phy_rx.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'csi2_d_phy_rx'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/LIANG/Desktop/FPGA/SEA-master/Examples/FPGA-IP/Camera-IP/IP/Driver_MIPI0_IP/Driver_MIPI0/Driver_MIPI_0_4/src/csi2_d_phy_rx_0/sim/csi2_d_phy_rx_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'csi2_d_phy_rx_0'

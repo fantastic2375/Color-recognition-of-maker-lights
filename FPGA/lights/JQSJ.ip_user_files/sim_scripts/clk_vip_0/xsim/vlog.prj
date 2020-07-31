@@ -1,0 +1,6 @@
+sv xil_defaultlib  \
+"../../../../JQSJ.srcs/sources_1/ip/clk_vip_0/sim/clk_vip_0.sv" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
